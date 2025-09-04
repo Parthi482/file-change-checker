@@ -7,7 +7,7 @@ from tkinter import filedialog, messagebox
 window = tk.Tk()
 window.title("File Change Checker")
 window.geometry("400x250")
-
+ 
 # This variable will hold the original file's content
 original_content = None
 
