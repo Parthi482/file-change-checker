@@ -23,5 +23,26 @@ A lightweight desktop application built with Python and Tkinter that allows you 
 ### Installation
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/file-change-checker.git
+git clone https://github.com/Parthi482/file-change-checker.git
 cd file-change-checker
+
+
+🖥️ Run the App
+To run the application, use the following command in your terminal:
+python file_change_checker.py
+
+Click Upload Original File and select the base file.
+Click Upload File to Compare and select another file.
+The app will display whether the file has changed.
+```
+### Project Structure
+```bash
+file-change-checker/
+│
+├── .gitignore # Git ignore rules
+├── file_change_checker.py # Main application script
+├── LICENSE # MIT License file
+├── README.md # Project documentation
+└── sample.txt # Sample text file for testing
+
+```
